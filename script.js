@@ -26,8 +26,8 @@ const LIMIT = 50;
 // ===== UI inicial =====
 // Mostramos uma mensagem inicial dentro da tabela e no status,
 // e garantimos que os botões se comportem como "button" (não submit).
-tbody.innerHTML = "<tr><td colspan='4'>Clique em “Atualizar da NASA” para carregar os dados.</td></tr>";
-statusEl.textContent = 'Pronto — aguardando clique no botão.';
+tbody.innerHTML = "<tr><td colspan='4'>Click on Update from NASA to load the data.</td></tr>";
+statusEl.textContent = 'Ready';
 btnAtualizar?.setAttribute('type','button');
 btnDiag?.setAttribute('type','button');
 
@@ -40,7 +40,7 @@ btnDiag?.setAttribute('type','button');
   const initial = saved ? Number(saved) : 0.05; // padrão 0.05 AU (bem perto da Terra)
   const html = `
     <label id="lblMaxAU" style="display:inline-flex;align-items:center;gap:6px;margin-left:8px;">
-      <span style="color:#333">Distância máx (AU):</span>
+      <span style="color:#333">Max Distance (AU):</span>
       <input id="maxDistAu" type="number" min="0.001" step="0.001" value="${initial}" style="width:90px;padding:4px 6px;border:1px solid #ccc;border-radius:6px;">
     </label>
   `;

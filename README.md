@@ -1,8 +1,8 @@
 # meteor-madness
 
-🌠 Meteor Madness
+🌠 Meteor Madness Red Alert
 
-Meteor Madness é uma aplicação web interativa que transforma dados reais da NASA sobre asteroides em uma experiência visual e educativa.
+Meteor Madness Red Alert é uma aplicação web interativa que transforma dados reais da NASA sobre asteroides em uma experiência visual e educativa.
 Ela conecta-se à NASA Near-Earth Object API, exibindo informações sobre asteroides que passam próximos à Terra — nome, data, velocidade e distância — de forma acessível para estudantes e o público geral.
 
 🚀 Objetivo
